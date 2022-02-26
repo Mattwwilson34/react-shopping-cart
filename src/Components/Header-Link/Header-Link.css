@@ -1,0 +1,12 @@
+.nav-link {
+  font-size: 36px;
+  text-decoration: none;
+  color: black;
+  padding: 1px 10px;
+}
+
+.selected {
+  background-color: #3385c6;
+  border-radius: 500px;
+  color: white;
+}

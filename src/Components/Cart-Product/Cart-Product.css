@@ -1,0 +1,28 @@
+.CartProduct {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  margin-bottom: 10px;
+  border: 1px solid black;
+  align-items: center;
+}
+
+.CartColor {
+  height: 50px;
+  width: 50px;
+}
+
+.CartDeleteBtn {
+  max-width: 100px;
+  padding: 5px;
+}
+
+.numOfProductsConatiner {
+  display: flex;
+  align-items: center;
+}
+
+.numOfProducts {
+  display: block;
+  min-width: 35px;
+  text-align: center;
+}

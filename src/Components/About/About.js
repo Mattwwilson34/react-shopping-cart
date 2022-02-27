@@ -5,7 +5,14 @@ export function About() {
   return (
     <div className='About'>
       <h2>The Odin Project Shopping Cart Assignment</h2>
-      <h3>This website is was created to practice React Routing</h3>
+      <h3>This website was created to practice React Routing</h3>
+      <p>
+        Check out the Shop page were you can add colors to your shopping cart
+      </p>
+      <p>
+        The Cart page will display all items placed in your cart as well as
+        allow you to update their quantaties
+      </p>
       <p>
         Purus molestie senectus viverra mi integer faucibus sollicitudin mauris
         magnis laoreet mollis, sagittis himenaeos ornare volutpat massa inceptos

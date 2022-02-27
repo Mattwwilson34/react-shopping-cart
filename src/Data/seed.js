@@ -3,13 +3,15 @@ const fs = require('fs');
 const uniqid = require('uniqid');
 const randomNum = require('./randomNum');
 
-const randPrice = Math.round(randomNum(5, 100) * 100) / 100;
+const randPrice = () => {
+  return Math.round(randomNum(5, 100) * 100) / 100;
+};
 
 let products = CSS_COLOR_NAMES.map((product) => {
   return {
     id: uniqid(),
     name: product,
-    price: randPrice,
+    price: randPrice(),
     color: product,
   };
 });

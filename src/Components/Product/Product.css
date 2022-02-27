@@ -1,0 +1,44 @@
+.Product {
+  padding: 10px;
+  display: flex;
+  min-height: 250px;
+  min-width: 250px;
+  flex-direction: column;
+  border: 3px solid rgba(0, 0, 0, 0.454);
+  border-radius: 10px;
+  gap: 10px;
+  justify-content: space-between;
+  transition: all 0.2s ease-in-out;
+}
+
+.Product:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.Color {
+  height: 150px;
+  width: 150px;
+  align-self: center;
+  border-radius: 5px;
+}
+
+.Name {
+  text-align: center;
+  font-weight: 700;
+}
+
+.Price {
+  font-weight: 700;
+  text-align: center;
+}
+
+.Unit {
+  font-size: 0.75em;
+}
+
+.Input-Btn-Container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}

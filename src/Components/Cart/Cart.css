@@ -1,0 +1,21 @@
+.CartTotal {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  margin-bottom: 10px;
+  border-top: 2.5px solid black;
+  align-items: center;
+}
+
+.TotalNum,
+.TotalText {
+  font-weight: 700;
+}
+
+.TotalText {
+  text-align: right;
+  margin-right: 10px;
+  grid-column-start: 4;
+}
+.TotalNum {
+  grid-column-start: 5;
+}

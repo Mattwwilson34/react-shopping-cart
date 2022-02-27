@@ -1,0 +1,11 @@
+.Input {
+  width: 40px;
+  align-self: center;
+  border-style: none;
+  padding: 10px;
+  text-align: center;
+}
+
+.Input:focus {
+  outline: none;
+}
